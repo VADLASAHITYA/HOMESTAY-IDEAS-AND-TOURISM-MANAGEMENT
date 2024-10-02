@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stay and Explore</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url('https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2014/04/parallaxcover.jpg'); /* Replace with actual background image */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 50px;
+            border-radius: 10px;
+        }
+
+        /* Parallax Section */
+        .parallax {
+            background-image: url('https://image.shutterstock.com/z/stock-photo-a-scenic-road-view-with-a-lake-and-mountains-in-the-background-for-parallax-effect-1704608891.jpg');
+            height: 500px; 
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        h1 {
+            font-size: 48px;
+            color: #131d90;
+        }
+        p {
+            font-size: 20px;
+            color: #131d90;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background-color: #131d90;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #131d90;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main content -->
+    <div class="container">
+        <h1>Stay and Explore</h1>
+        <p>Welcome to our platform where you can find the best homestays and local attractions.</p>
+        
+        <!-- Buttons to redirect to signup or login -->
+        <a href="register.html" class="btn">Sign Up</a>
+        <a href="login.html" class="btn">Log In</a>
+    </div>
+
+    <!-- Parallax section -->
+    <div class="parallax"></div>
+
+</body>
+</html>
